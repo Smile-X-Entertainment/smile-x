@@ -1286,19 +1286,3 @@ html {
     transition: box-shadow 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   }
 }
-
-/* Hide Manus platform badge */
-#manus-badge,
-.manus-badge,
-[data-manus-badge],
-[id*="manus-badge"],
-[class*="manus-badge"],
-a[href*="manus.space"][style*="position: fixed"],
-a[href*="manus.space"][style*="position:fixed"],
-div[style*="position: fixed"][style*="bottom"][style*="right"] a[href*="manus"],
-iframe[src*="manus"] {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
